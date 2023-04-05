@@ -31,7 +31,7 @@ interface TransactionsContextData {
 
 }
 
-export const TransactionsContext =  createContext<TransactionsContextData>(
+const TransactionsContext =  createContext<TransactionsContextData>(
     {} as TransactionsContextData
     );
 
